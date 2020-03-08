@@ -31,3 +31,41 @@ vector<int> matchingStrings(vector<string> strings, vector<string> queries)
     }
 return result;
 }
+
+
+
+
+
+//Or using hash_maps (unordered_maps)
+
+vector<int> matchingStrings(vector<string> strings, vector<string> queries)
+ {
+     unordered_map<string,int> res;
+     
+     vector<int> result;
+     
+     for(int i = 0;i<strings.size();i++)
+     {
+         
+         res[strings[i]]=0;
+     }
+
+
+     for(int i = 0;i<strings.size();i++)
+     {
+         
+         res[strings[i]]+=1;
+     }
+
+     for(int i = 0;i<queries.size();i++)
+     {
+         
+         if(res[queries[i]])
+         {
+             result.push_back(res[queries[i]]);
+         }
+       else result.push_back(0);
+     }
+
+return result;  
+ }
