@@ -3,7 +3,7 @@
 vector<int> matchingStrings(vector<string> strings, vector<string> queries) 
 {
     map<string,int> res;
-    
+   
     string temp;
     
     for(int i=0;i<strings.size();i++)
