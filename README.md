@@ -1,5 +1,5 @@
-N          Time Complexity
----------------------------
+N ----- Time Complexity
+
 10^18 ----- O(logN)
 
 10^8 ----- O(N)
