@@ -32,6 +32,7 @@ Number theory
 -------------
 
 Modulo
+
 a%b = a - b*floor(a/b)
 
 example:
