@@ -28,11 +28,11 @@ Reasons for segmentation errors:
 
 ________________________________________________________________________________________________________________________________________________________________________
 
-Number theory
+Number Theory
 -------------
 
 Modulo
-
+-------
 a%b = a - b*floor(a/b)
 
 example:
@@ -42,12 +42,12 @@ example:
 	 = 3
 
 Euclids theorem
-
+---------------
 
 gcd(a,b) = gcd(b,a%b) ; given a>b
 gcd(a , 0) = a
 
 Extended Euclids theorem
-
+------------------------
 
 ax + by = gcd(a,b) ; x and y are called roots
