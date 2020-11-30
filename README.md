@@ -1,20 +1,20 @@
-N			Time Complexity
+N          Time Complexity
 ---------------------------
-10^18	\t	O(logN)
+10^18 ----- O(logN)
 
-10^8		O(N)
+10^8 ----- O(N)
 
-10^4		O(N*N)
+10^4 ----- O(N*N)
 
-10^7		O(N*logN)
+10^7 ----- O(N*logN)
 
-10^2		O(N*N*N)
+10^2 ----- O(N*N*N)
 
-0<N<90		O(N*N*N*N)
+0<N<90 ----- O(N*N*N*N)
 
-0<N<20		O(2^N)
+0<N<20 ----- O(2^N)
 
-0<N<11		O(N!)
+0<N<11 ----- O(N!)
 
 Why? Because time limit for most problems online is 1 second only. And maximum operations that can be performed by a computer in 1 second is O(10^8).
 
