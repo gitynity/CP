@@ -1,6 +1,6 @@
 N			Time Complexity
 ---------------------------
-10^18		O(logN)
+10^18	\t	O(logN)
 
 10^8		O(N)
 
