@@ -1,5 +1,5 @@
 N ----- Time Complexity
-
+-----------------------
 10^18 ----- O(logN)
 
 10^8 ----- O(N)
@@ -26,7 +26,7 @@ Reasons for segmentation errors:
 * you made a gobal array of size greater than 10^8
 * Note: The maximum stack space computer allows for a function is 4 MB. So you cannot declare a local int array on stack of size more than 10^6. But if you do want an array of size greater than that , use heap memory i.e dynamic allocation.
 
-_____________________________________________________________________________________________________________________________________________________________________-_________
+________________________________________________________________________________________________________________________________________________________________________
 
 Number theory
 -------------
